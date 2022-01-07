@@ -1,0 +1,7 @@
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Console_App_Assignment\Console_App_Assignment\bin\Debug\Console_App_Assignment.exe.config
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Console_App_Assignment\Console_App_Assignment\bin\Debug\Console_App_Assignment.exe
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Console_App_Assignment\Console_App_Assignment\bin\Debug\Console_App_Assignment.pdb
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Console_App_Assignment\Console_App_Assignment\obj\Debug\Console_App_Assignment.csproj.AssemblyReference.cache
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Console_App_Assignment\Console_App_Assignment\obj\Debug\Console_App_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Console_App_Assignment\Console_App_Assignment\obj\Debug\Console_App_Assignment.exe
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Console_App_Assignment\Console_App_Assignment\obj\Debug\Console_App_Assignment.pdb
