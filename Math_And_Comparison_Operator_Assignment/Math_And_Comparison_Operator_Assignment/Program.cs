@@ -63,6 +63,8 @@ namespace Math_And_Comparison_Operator_Assignment
             else{
                 Console.WriteLine("They make exactly the same amount of money.");
             }
+
+            Console.ReadLine();
         }
     }
 }
