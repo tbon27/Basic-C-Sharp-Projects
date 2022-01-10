@@ -1,0 +1,7 @@
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Boolean_Logic_Assignment\Boolean_Logic_Assignment\bin\Debug\Boolean_Logic_Assignment.exe.config
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Boolean_Logic_Assignment\Boolean_Logic_Assignment\bin\Debug\Boolean_Logic_Assignment.exe
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Boolean_Logic_Assignment\Boolean_Logic_Assignment\bin\Debug\Boolean_Logic_Assignment.pdb
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Boolean_Logic_Assignment\Boolean_Logic_Assignment\obj\Debug\Boolean_Logic_Assignment.csproj.AssemblyReference.cache
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Boolean_Logic_Assignment\Boolean_Logic_Assignment\obj\Debug\Boolean_Logic_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Boolean_Logic_Assignment\Boolean_Logic_Assignment\obj\Debug\Boolean_Logic_Assignment.exe
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Boolean_Logic_Assignment\Boolean_Logic_Assignment\obj\Debug\Boolean_Logic_Assignment.pdb
