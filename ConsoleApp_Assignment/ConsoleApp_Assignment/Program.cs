@@ -13,9 +13,9 @@ namespace ConsoleApp_Assignment
             // WHILE STATEMENT DEMO - COUNTDOWN FROM 5 to 1
 
             int count = 5; // start counter at 5
-            bool isCounting = false; // set bool to false by default
+            //bool isCounting = false; // set bool to false by default
 
-            while (!isCounting) // while isCounting is true (is not false)
+            while (count > 0) // while isCounting is true (is not false)
             {
                 Console.WriteLine(count); //display current count
                 count--; // decrement count by one
