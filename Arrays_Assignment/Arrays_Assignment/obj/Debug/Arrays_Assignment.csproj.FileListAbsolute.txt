@@ -1,0 +1,6 @@
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Arrays_Assignment\Arrays_Assignment\bin\Debug\Arrays_Assignment.exe.config
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Arrays_Assignment\Arrays_Assignment\bin\Debug\Arrays_Assignment.exe
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Arrays_Assignment\Arrays_Assignment\bin\Debug\Arrays_Assignment.pdb
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Arrays_Assignment\Arrays_Assignment\obj\Debug\Arrays_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Arrays_Assignment\Arrays_Assignment\obj\Debug\Arrays_Assignment.exe
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Arrays_Assignment\Arrays_Assignment\obj\Debug\Arrays_Assignment.pdb
