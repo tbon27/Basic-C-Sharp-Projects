@@ -15,7 +15,7 @@ namespace Arrays_Assignment
             Console.WriteLine("Please enter a number/index between 0 and 8"); 
             int userInput1 = Convert.ToInt32(Console.ReadLine()); // take user input and convert from string to int
 
-            if (userInput1 > strArray1.Length || userInput1 < 0) // if input is outside the index display this
+            if (userInput1 >= strArray1.Length || userInput1 < 0) // if input is outside the index display this
             {
                 Console.WriteLine("This array does not contain this index...");
                 Console.WriteLine("Press enter to continue...");
@@ -33,7 +33,7 @@ namespace Arrays_Assignment
             Console.WriteLine("Please enter a number/index between 0 and 6");
             int userInput2 = Convert.ToInt32(Console.ReadLine());  // take user input and convert from string to int
 
-            if (userInput2 > intArray1.Length || userInput2 < 0) // if input is outside the index display this
+            if (userInput2 >= intArray1.Length || userInput2 < 0) // if input is outside the index display this
             {
                 Console.WriteLine("This array does not contain this index...");
                 Console.WriteLine("Press enter to continue...");
@@ -59,7 +59,7 @@ namespace Arrays_Assignment
             int userInput3 = Convert.ToInt32(Console.ReadLine());  // take user input and convert from string to int
 
 
-            if (userInput3 > strList1.Count || userInput3 < 0) // if input is outside the index display this
+            if (userInput3 >= strList1.Count || userInput3 < 0) // if input is outside the index display this
             {
                 Console.WriteLine("This array does not contain this index...");
                 Console.WriteLine("Press enter to continue...");
