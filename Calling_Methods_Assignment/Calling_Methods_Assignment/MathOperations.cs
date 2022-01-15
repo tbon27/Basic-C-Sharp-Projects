@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calling_Methods_Assignment
 {
-    public class MathOperations
+    public class MathOperations //create class
     {
         public int Add(int input) //create method requiring one int parameter
         {
