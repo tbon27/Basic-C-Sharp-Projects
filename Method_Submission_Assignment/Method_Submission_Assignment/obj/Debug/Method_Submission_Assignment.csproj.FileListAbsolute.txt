@@ -1,0 +1,7 @@
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Method_Submission_Assignment\Method_Submission_Assignment\bin\Debug\Method_Submission_Assignment.exe.config
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Method_Submission_Assignment\Method_Submission_Assignment\bin\Debug\Method_Submission_Assignment.exe
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Method_Submission_Assignment\Method_Submission_Assignment\bin\Debug\Method_Submission_Assignment.pdb
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Method_Submission_Assignment\Method_Submission_Assignment\obj\Debug\Method_Submission_Assignment.csproj.AssemblyReference.cache
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Method_Submission_Assignment\Method_Submission_Assignment\obj\Debug\Method_Submission_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Method_Submission_Assignment\Method_Submission_Assignment\obj\Debug\Method_Submission_Assignment.exe
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Method_Submission_Assignment\Method_Submission_Assignment\obj\Debug\Method_Submission_Assignment.pdb
