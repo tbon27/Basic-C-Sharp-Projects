@@ -10,6 +10,13 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            //TwentyOneGame game = new TwentyOneGame(); // instantiate TwentyOneGame class
+            //game.Players = new List<string>() { "Tony", "Rachel", "Indie" }; //instantiate with these values
+            //game.ListPlayers(); // call method listplayers from twentyonegame inherited from game class
+            ////calling from SUPERCLASS METHOD - Game is the superclass in this example, inherited from
+            
+
+
             Deck deck = new Deck(); // instantiate Deck class
             //deck = Shuffle(deck); // shuffling and reassigning the value to deck
 
