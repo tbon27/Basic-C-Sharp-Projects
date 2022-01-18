@@ -29,6 +29,25 @@ namespace TwentyOne
                 }
             }
         }
-        public List<Card> Cards { get; set; }
+        public List<Card> Cards { get; set; } // properties
+
+        // This CLASS METHOD takes deck as an argument, and returns a shuffled deck
+        public void Shuffle(int times = 1) //dont need to return anything
+        // when a default value is set (ex: 1), this creates an optional parameter
+        {
+            for (int i = 0; i < times; i++)
+            {
+                List<Card> TempList = new List<Card>();
+                Random random = new Random();
+
+                while (Cards.Count > 0)
+                {
+                    int randomIndex = random.Next(0, Cards.Count);
+                    TempList.Add(Cards[randomIndex]);
+                    Cards.RemoveAt(randomIndex);
+                }
+                Cards = TempList;
+            }
+        }
     }
 }
