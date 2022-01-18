@@ -1,0 +1,7 @@
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Methods_and_Objects_Assignment\Methods_and_Objects_Assignment\bin\Debug\Methods_and_Objects_Assignment.exe.config
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Methods_and_Objects_Assignment\Methods_and_Objects_Assignment\bin\Debug\Methods_and_Objects_Assignment.exe
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Methods_and_Objects_Assignment\Methods_and_Objects_Assignment\bin\Debug\Methods_and_Objects_Assignment.pdb
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Methods_and_Objects_Assignment\Methods_and_Objects_Assignment\obj\Debug\Methods_and_Objects_Assignment.csproj.AssemblyReference.cache
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Methods_and_Objects_Assignment\Methods_and_Objects_Assignment\obj\Debug\Methods_and_Objects_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Methods_and_Objects_Assignment\Methods_and_Objects_Assignment\obj\Debug\Methods_and_Objects_Assignment.exe
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Methods_and_Objects_Assignment\Methods_and_Objects_Assignment\obj\Debug\Methods_and_Objects_Assignment.pdb
