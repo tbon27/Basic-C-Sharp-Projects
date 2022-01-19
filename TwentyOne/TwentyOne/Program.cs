@@ -10,11 +10,18 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            //TwentyOneGame game = new TwentyOneGame(); // instantiate TwentyOneGame class
-            //game.Players = new List<string>() { "Tony", "Rachel", "Indie" }; //instantiate with these values
-            //game.ListPlayers(); // call method listplayers from twentyonegame inherited from game class
+            TwentyOneGame game = new TwentyOneGame(); // instantiate TwentyOneGame class
+            game.Players = new List<string>() { "Tony", "Rachel", "Indie" }; //instantiate with these values
+            game.ListPlayers(); // call method listplayers from twentyonegame inherited from game class
             ////calling from SUPERCLASS METHOD - Game is the superclass in this example, inherited from
-            
+            Console.ReadLine();
+
+            //// polymorphism - TwentyOneGame can morph into the inherited from class Game
+            //// this is useful for when there are many classes to be added in this way (ex: list of many diff games included
+            //List<Game> games = new List<Game>();
+            //TwentyOneGame game = new TwentyOneGame();
+            //games.Add(game);
+
 
 
             Deck deck = new Deck(); // instantiate Deck class
