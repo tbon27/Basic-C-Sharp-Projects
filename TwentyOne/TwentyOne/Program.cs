@@ -10,21 +10,34 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            TwentyOneGame game = new TwentyOneGame(); // instantiate TwentyOneGame class
-            game.Players = new List<string>() { "Tony", "Rachel", "Indie" }; //instantiate with these values
-            game.ListPlayers(); // call method listplayers from twentyonegame inherited from game class
-            ////calling from SUPERCLASS METHOD - Game is the superclass in this example, inherited from
-            Console.ReadLine();
+            /* //Example starter code:
+                    *
+                         * TwentyOneGame game = new TwentyOneGame(); // instantiate TwentyOneGame class
+                         * game.Players = new List<string>() { "Tony", "Rachel", "Indie" }; //instantiate with these values
+                         * game.ListPlayers(); // call method listplayers from twentyonegame inherited from game class
+                         * //calling from SUPERCLASS METHOD - Game is the superclass in this example, inherited from
+                         * Console.ReadLine();
+                         * 
+                    */
+            /* //polymorphism example:
+            *  
+                         *  //TwentyOneGame can morph into the inherited from class Game
+                         *  //this is useful for when there are many classes to be added in this way (ex: list of many diff games included)
+                         * 
+                         * List<Game> games = new List<Game>();
+                         * TwentyOneGame game = new TwentyOneGame();
+                         * games.Add(game);
+                         * 
+                    */
 
-            //// polymorphism - TwentyOneGame can morph into the inherited from class Game
-            //// this is useful for when there are many classes to be added in this way (ex: list of many diff games included
-            //List<Game> games = new List<Game>();
-            //TwentyOneGame game = new TwentyOneGame();
-            //games.Add(game);
+            Game game = new TwentyOneGame(); // instantiate new Game to add player to
+            game.Players = new List<Player>(); // instantiate list Player, so we can to add to it
+            Player player = new Player(); // instantiate new Player
+            player.Name = "Tony"; //add name to player name property (string)
+            game += player; // aka: game = game + player; // parameters are game and a player (adding player to Players), returns game (this is our "method")
+            game -= player; // aka: game = game - player; // parameters are game and a player (removing player from Players), returns game (this is our "method")
 
-
-
-            Deck deck = new Deck(); // instantiate Deck class
+            Deck deck = new Deck(); // instantiate Deck
             //deck = Shuffle(deck); // shuffling and reassigning the value to deck
 
             deck.Shuffle(3); 
@@ -40,7 +53,7 @@ namespace TwentyOne
             Console.ReadLine();
         }
 
-        //// First Method for shuffling the deck multiple times
+        /*// First Method for shuffling the deck multiple times
         //public static Deck Shuffle(Deck deck, int times)
         //{
         //    for (int i = 0; i < times; i++)
@@ -49,5 +62,6 @@ namespace TwentyOne
         //    }
         //    return deck;
         //}
+        */
     }
 }
