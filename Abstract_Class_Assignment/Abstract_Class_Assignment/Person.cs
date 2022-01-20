@@ -11,10 +11,11 @@ namespace Abstract_Class_Assignment
         // properties
         public string firstName { get; set; }
         public string lastName { get; set; }
+        public int Id { get; set; }
 
         public virtual void SayName() // make virtual so it can be accessed outside abstract class
         {
-            Console.WriteLine("Name: {0} {1}", firstName, lastName);
+            Console.WriteLine("Name: {0} {1} {2}", firstName, lastName, Id);
         }
     }
 }

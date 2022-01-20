@@ -17,5 +17,6 @@ namespace Abstract_Class_Assignment
         {
             Console.WriteLine("This is the Quit() method!");
         }
+
     }
 }
