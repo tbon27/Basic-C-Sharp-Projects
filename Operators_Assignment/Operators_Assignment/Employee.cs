@@ -28,7 +28,7 @@ namespace Operators_Assignment
         // 2 issues: 
         // 1.)  CS0660	'Employee' defines operator == or operator != but does not override Object.Equals(object o)
         // 2.)  CS0661	'Employee' defines operator == or operator != but does not override Object.GetHashCode()
-
+        // resolved.
         // Following solution from docs.microsoft
         public override bool Equals(object o)
         {
