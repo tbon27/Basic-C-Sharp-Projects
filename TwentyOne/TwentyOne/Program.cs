@@ -10,6 +10,8 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+//=== Starter/demo/example code
+
             /* //Example starter code:
                     *
                          * TwentyOneGame game = new TwentyOneGame(); // instantiate TwentyOneGame class
@@ -20,7 +22,7 @@ namespace TwentyOne
                          * 
                     */
             /* //polymorphism example:
-            *  
+                    *  
                          *  //TwentyOneGame can morph into the inherited from class Game
                          *  //this is useful for when there are many classes to be added in this way (ex: list of many diff games included)
                          * 
@@ -29,13 +31,29 @@ namespace TwentyOne
                          * games.Add(game);
                          * 
                     */
+            /* Example code:
+                     * 
+                         * Game game = new TwentyOneGame(); // instantiate new Game to add player to
+                         * game.Players = new List<Player>(); // instantiate list Player, so we can to add to it
+                         * Player player = new Player(); // instantiate new Player
+                         * player.Name = "Tony"; //add name to player name property (string)
+                         * game += player; // aka: game = game + player; // parameters are game and a player (adding player to Players), returns game (this is our "method")
+                         * game -= player; // aka: game = game - player; // parameters are game and a player (removing player from Players), returns game (this is our "method")
+                         * 
+                    */
+            /* First Method for shuffling the deck multiple times
+             * public static Deck Shuffle(Deck deck, int times)
+                {
+                    for (int i = 0; i < times; i++)
+                    {
+                        deck = Shuffle(deck);
+                    }
+                    return deck;
+                }
+            */
+//=== start after here
 
-            Game game = new TwentyOneGame(); // instantiate new Game to add player to
-            game.Players = new List<Player>(); // instantiate list Player, so we can to add to it
-            Player player = new Player(); // instantiate new Player
-            player.Name = "Tony"; //add name to player name property (string)
-            game += player; // aka: game = game + player; // parameters are game and a player (adding player to Players), returns game (this is our "method")
-            game -= player; // aka: game = game - player; // parameters are game and a player (removing player from Players), returns game (this is our "method")
+            
 
             Deck deck = new Deck(); // instantiate Deck
             //deck = Shuffle(deck); // shuffling and reassigning the value to deck
@@ -53,15 +71,6 @@ namespace TwentyOne
             Console.ReadLine();
         }
 
-        /*// First Method for shuffling the deck multiple times
-        //public static Deck Shuffle(Deck deck, int times)
-        //{
-        //    for (int i = 0; i < times; i++)
-        //    {
-        //        deck = Shuffle(deck);
-        //    }
-        //    return deck;
-        //}
-        */
+
     }
 }
