@@ -10,6 +10,25 @@ namespace Operators_Assignment
     {
         static void Main(string[] args)
         {
+            Employee<string> loginCred = new Employee<string>();
+            loginCred.things = new List<string>();
+            loginCred.things.Add("username: fjones0");
+            loginCred.things.Add("password");
+            loginCred.things.Add("access level 2");
+
+            Employee<int> intData = new Employee<int>();
+            intData.things = new List<int>();
+            intData.things.Add(2300);
+            intData.things.Add(4588);
+            intData.things.Add(8080);
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(loginCred.things[i]);
+                Console.WriteLine(intData.things[i]);
+            }
+            Console.ReadLine();
+/*
             Employee employee = new Employee(); // instantiate Employee class
             employee.firstName = "Janice"; // initialize
             employee.lastName = "Johnson"; // initialize
@@ -27,10 +46,9 @@ namespace Operators_Assignment
             Console.ReadLine();
 
 
-            //==========================
+
             //==  Overload "==" operator
             //==========================
-            //
             // here we use our overload comparing Employee objects employee and employee2...
             // ...resulting in employee1id.id == employee2id.id (TRUE/FALSE)            
             Console.WriteLine("Employee Id's Match: " + (employee == employee2));
@@ -39,6 +57,7 @@ namespace Operators_Assignment
             Console.WriteLine("Employee Id's Don't Match: " + (employee != employee2));
 
             Console.ReadLine();
+*/
         }
     }
 }
