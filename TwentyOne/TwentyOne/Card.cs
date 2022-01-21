@@ -6,13 +6,17 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    public class Card //class is a model or design for an object
+    public struct Card 
+        //class is a model or design for an object --> CHANGED to struct because good candidate..
+        //our card is a small value, and once set we dont want it changed..
+        //doesnt inherit anything. Structs cant be inherited
     {
         //public Card() //this is a constructor; if we dont assign any values later, these are default
         //{
         //    Suit = "Spades";
         //    Face = "Two";
         //}
+
         public Suit Suit { get; set; } //get data type Suit (instead of string) from enum below
         public Face Face { get; set; } //get data type Suit (instead of string) from enum below
     }
