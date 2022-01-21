@@ -1,0 +1,6 @@
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Struct_Assignment\Struct_Assignment\bin\Debug\Struct_Assignment.exe.config
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Struct_Assignment\Struct_Assignment\bin\Debug\Struct_Assignment.exe
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Struct_Assignment\Struct_Assignment\bin\Debug\Struct_Assignment.pdb
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Struct_Assignment\Struct_Assignment\obj\Debug\Struct_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Struct_Assignment\Struct_Assignment\obj\Debug\Struct_Assignment.exe
+C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Struct_Assignment\Struct_Assignment\obj\Debug\Struct_Assignment.pdb
