@@ -11,6 +11,7 @@ namespace TwentyOne
         public Deck()//constructor, name is always the same as name of class
         {
             Cards = new List<Card>(); //instantiate empty list of cards
+            /*
             List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" };
             List<string> Faces = new List<string>()
             {
@@ -22,12 +23,25 @@ namespace TwentyOne
             {
                 foreach (string suit in Suits)
                 {
+                    Card card = new Card(); //create card
+                    card.Suit = suit; //assign suit
+                    card.Face = face; //assign face
+                    Cards.Add(card); //add to Cards List
+                }
+            }*/
+            //=== Create a deck of cards:
+            //=== 52 for loops (cards created); 13 times 4 = 52
+            for (int i = 0; i < 13; i++) //loop through each face
+            {
+                for(int j = 0; j < 4; j++) //loop through each suit
+                {
                     Card card = new Card();
-                    card.Suit = suit;
-                    card.Face = face;
-                    Cards.Add(card);
+                    card.Face = (Face)i; //cast to Face, assign card face
+                    card.Suit = (Suit)j; //cast to Suit, assign card suit
+                    Cards.Add(card); //add card to Cards list
                 }
             }
+
         }
         public List<Card> Cards { get; set; } // properties
 

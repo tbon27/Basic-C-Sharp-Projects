@@ -10,7 +10,7 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-//=== Starter/demo/example code
+            //=== Starter/demo/example code
 
             /* //Example starter code:
                     *
@@ -51,10 +51,9 @@ namespace TwentyOne
                     return deck;
                 }
             */
-//=== start after here
+            //=== start after here
 
-            
-
+          
             Deck deck = new Deck(); // instantiate Deck
             //deck = Shuffle(deck); // shuffling and reassigning the value to deck
 
@@ -70,6 +69,7 @@ namespace TwentyOne
             Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
         }
+
 
 
     }

@@ -8,13 +8,39 @@ namespace TwentyOne
 {
     public class Card //class is a model or design for an object
     {
-        public Card() //this is a constructor; if we dont assign any values later, these are default
-        {
-            Suit = "Spades";
-            Face = "Two";
-        }
+        //public Card() //this is a constructor; if we dont assign any values later, these are default
+        //{
+        //    Suit = "Spades";
+        //    Face = "Two";
+        //}
+        public Suit Suit { get; set; } //get data type Suit (instead of string) from enum below
+        public Face Face { get; set; } //get data type Suit (instead of string) from enum below
+    }
 
-        public string Suit { get; set; }
-        public string Face { get; set; }
+    //=== using enums to limit the possibilities of our card and suit values (with consts)
+    //==since this enum specifically relates to this class..
+    //==..(judgement) maybe better to define here (rather than sep. file)
+    public enum Suit
+    {
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades
+    }    
+    public enum Face
+    {
+        Two,
+        Three,
+        Four,
+        Five,
+        Six,
+        Seven,
+        Eight,
+        Nine,
+        Ten,
+        Jack,
+        Queen,
+        King,
+        Ace
     }
 }
