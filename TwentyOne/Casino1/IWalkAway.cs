@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino.Interfaces
 {
     interface IWalkAway //naming conventions for interfaces begin with "I" (ex: "ILimitPurchase", "IEndSession")
     // .NET Framework does not support multiple inheritance otherwise

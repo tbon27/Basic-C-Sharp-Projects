@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
+using Casino;
+using Casino.TwentyOne;
 
 namespace TwentyOne
 {
@@ -11,7 +9,12 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Grand Hotel and Casino!\nLet's start by telling me your name:");
+            //Player newPlayer = new Player("Tony"); //demo- constructor callchain
+            //var newPlayer = new Player("Tony"); // var demo- C# figures out data type on the fly
+
+            const string casinoName = "Grand Hotel and Casino";//declaring constant demo - const cannot change
+
+            Console.WriteLine("Welcome to the {0}! Let's start by telling me your name:", casinoName);
             string playerName = Console.ReadLine();
 
             Console.WriteLine("And what is your budget today?");
@@ -21,6 +24,11 @@ namespace TwentyOne
             string answer = Console.ReadLine().ToLower();
             if(answer == "yes" || answer == "yess" || answer == "ya" || answer == "yeah" || answer == "yah"|| answer == "yep"||answer == "yup"|| answer == "y"){
                 Player player = new Player(playerName, bank); // name and how much they brought
+                player.id = Guid.NewGuid(); // GLOBAL UNIQUE IDENTIFIER
+                using (StreamWriter file = new StreamWriter(@"C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\TwentyOne\Logs\log.txt", true)) //false creates new files, this appends
+                {
+                    file.WriteLine(player.id); // write cards suit and face to text file
+                }
                 Game game = new TwentyOneGame(); //polymorphism, creating a Game() because we want to expose the overloaded operators
                 game += player;
                 player.isActivelyPlaying = true;

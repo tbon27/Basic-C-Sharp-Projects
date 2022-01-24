@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino
 {
     public class Player
     {
+        // Constructor chaining, constructor callchain
+        public Player(string name) : this(name, 100) //assign name to name, and start with beginning balance of 100
+        { } //no need for implementation here, we are reusing the constructor below, in this constructor
 
         public Player(string name, int beginningBalance) //constructor taking two params
         {
@@ -23,6 +26,7 @@ namespace TwentyOne
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
         public bool Stay { get; set; }
+        public Guid id { get; set; }
 
         public bool Bet(int amount)
         {

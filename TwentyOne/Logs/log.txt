@@ -1,18 +1,57 @@
-1/24/2022 1:52:58 PM
+fffbda02-74d0-405c-b5e7-c35602ecf575
+1/24/2022 3:18:42 PM
+Ace of Spades
+
+1/24/2022 3:18:42 PM
+Jack of Diamonds
+
+1/24/2022 3:18:42 PM
 Queen of Diamonds
 
-1/24/2022 1:52:58 PM
-Jack of Spades
+66859c33-5699-4fbb-844a-a25d0b743cec
+1/24/2022 3:20:27 PM
+Six of Hearts
 
-1/24/2022 1:52:58 PM
-Two of Spades
+1/24/2022 3:20:27 PM
+Ten of Clubs
 
-1/24/2022 1:52:58 PM
-Four of Spades
+1/24/2022 3:20:27 PM
+Two of Clubs
 
-1/24/2022 1:53:02 PM
-Four of Clubs
+1/24/2022 3:20:27 PM
+Jack of Hearts
 
-1/24/2022 1:53:04 PM
-Nine of Clubs
+1/24/2022 3:20:34 PM
+Six of Spades
+
+1/24/2022 3:20:38 PM
+Three of Clubs
+
+6aa08ddc-501d-4786-906a-01b2a66bd8f7
+1/24/2022 3:23:04 PM
+Eight of Diamonds
+
+1/24/2022 3:23:04 PM
+Two of Hearts
+
+1/24/2022 3:23:04 PM
+Six of Clubs
+
+1/24/2022 3:23:04 PM
+Jack of Clubs
+
+1/24/2022 3:23:11 PM
+King of Clubs
+
+1/24/2022 3:23:17 PM
+King of Hearts
+
+1/24/2022 3:23:17 PM
+Jack of Diamonds
+
+1/24/2022 3:23:17 PM
+Eight of Hearts
+
+1/24/2022 3:23:18 PM
+Ten of Diamonds
 

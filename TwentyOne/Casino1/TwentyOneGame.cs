@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Casino.Interfaces;
 
-namespace TwentyOne
+namespace Casino.TwentyOne
 {
     public class TwentyOneGame: Game, IWalkAway // inherit a class from Game class, and inherit from INTERFACE class IWalkAway
     {
@@ -47,8 +48,9 @@ namespace TwentyOne
                         bool blackJack = TwentyOneRules.CheckForBlackJack(player.Hand);
                         if (blackJack)
                         {
-                            Console.WriteLine("BlackJack! {0} wins ${1}. New balance is ${2}", player.Name, Bets[player], player.Balance);
                             player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player]);
+
+                            Console.WriteLine("BlackJack! {0} wins ${1}. New balance is ${2}", player.Name, Bets[player], player.Balance);
                             return; //end round here
                         }
                     }
@@ -94,9 +96,9 @@ namespace TwentyOne
                     {
                         Dealer.Balance += Bets[player]; //give player bets to dealer
                         Console.WriteLine("{0} Busted! You lose your bet of {1}. Your balance is now {2}.", player.Name, Bets[player], player.Balance);
-                        Console.WriteLine("Do you want to player again?");
+                        Console.WriteLine("Do you want to play again?");
                         answer = Console.ReadLine().ToLower();
-                        if(answer == "yes" || answer == "yeah")
+                        if(answer == "yes" || answer == "yess" || answer == "ya" || answer == "yeah" || answer == "yah" || answer == "yep" || answer == "yup" || answer == "y")
                         {
                             player.isActivelyPlaying = true;
                             return;
@@ -156,7 +158,7 @@ namespace TwentyOne
                 }
                 Console.WriteLine("Play again?");
                 string answer = Console.ReadLine().ToLower();
-                if (answer == "yes" || answer == "yeah")
+                if (answer == "yes" || answer == "yess" || answer == "ya" || answer == "yeah" || answer == "yah" || answer == "yep" || answer == "yup" || answer == "y")
                 {
                     player.isActivelyPlaying = true;
                 }

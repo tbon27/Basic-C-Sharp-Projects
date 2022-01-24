@@ -4,31 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino
 {
     public class Deck
     {
         public Deck()//constructor, name is always the same as name of class
         {
             Cards = new List<Card>(); //instantiate empty list of cards
-            /*
-            List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" };
-            List<string> Faces = new List<string>()
-            {
-                "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"
-            };
-
-            // loop through Faces list 4 times, accessing the 4 suits
-            foreach (string face in Faces)
-            {
-                foreach (string suit in Suits)
-                {
-                    Card card = new Card(); //create card
-                    card.Suit = suit; //assign suit
-                    card.Face = face; //assign face
-                    Cards.Add(card); //add to Cards List
-                }
-            }*/
+            
             //=== Create a deck of cards:
             //=== 52 for loops (cards created); 13 times 4 = 52
             for (int i = 0; i < 13; i++) //loop through each face

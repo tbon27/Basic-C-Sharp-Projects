@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace TwentyOne
+namespace Casino.TwentyOne
 {
     public class Dealer 
     {
@@ -20,8 +20,8 @@ namespace TwentyOne
             Console.WriteLine(card);
             using (StreamWriter file = new StreamWriter(@"C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\TwentyOne\Logs\log.txt", true)) //false creates new files, this appends
             {
-                file.WriteLine(DateTime.Now);
-                file.WriteLine(card); // write cards to text file
+                file.WriteLine(DateTime.Now); // print when the card is actually dealt
+                file.WriteLine(card); // write cards suit and face to text file
             }
 
             Deck.Cards.RemoveAt(0); // index 0 - remove that first item from deck after added to hand
