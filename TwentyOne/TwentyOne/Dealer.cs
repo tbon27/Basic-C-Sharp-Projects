@@ -20,6 +20,7 @@ namespace TwentyOne
             Console.WriteLine(card);
             using (StreamWriter file = new StreamWriter(@"C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\TwentyOne\Logs\log.txt", true)) //false creates new files, this appends
             {
+                file.WriteLine(DateTime.Now);
                 file.WriteLine(card); // write cards to text file
             }
 
