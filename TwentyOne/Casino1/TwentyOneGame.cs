@@ -24,11 +24,24 @@ namespace Casino.TwentyOne
             Dealer.Stay = false;
             Dealer.Deck = new Deck();
             Dealer.Deck.Shuffle();
-            Console.WriteLine("Place your bet");
+            //Console.WriteLine("Place your bet");
 
             foreach(Player player in Players)
             {
-                int bet = Convert.ToInt32(Console.ReadLine());
+                bool successfullyBet = false;
+                int bet = 0;
+                while (!successfullyBet)
+                {
+                    Console.WriteLine("Place your bet!");
+                    successfullyBet = int.TryParse(Console.ReadLine(), out bet);
+                    if(!successfullyBet) Console.WriteLine("Please enter digits only; no decimals.");
+                }
+                //int bet = Convert.ToInt32(Console.ReadLine());
+                if(bet < 0)
+                {
+                    throw new FraudException();
+                }
+
                 bool succefullyBet = player.Bet(bet);
                 if (!succefullyBet)
                 {
@@ -41,7 +54,7 @@ namespace Casino.TwentyOne
                 Console.WriteLine("Dealing...");
                 foreach(Player player in Players)
                 {
-                    Console.Write("{0}:", player.Name); //write to console but dont go to new line
+                    Console.Write("{0}: ", player.Name); //write to console but dont go to new line
                     Dealer.Deal(player.Hand);
                     if (i == 1)
                     {
@@ -50,7 +63,7 @@ namespace Casino.TwentyOne
                         {
                             player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player]);
 
-                            Console.WriteLine("BlackJack! {0} wins ${1}. New balance is ${2}", player.Name, Bets[player], player.Balance);
+                            Console.WriteLine("BlackJack! {0} wins ${1}. Your balance is now ${2}", player.Name, Bets[player], player.Balance);
                             return; //end round here
                         }
                     }
@@ -66,6 +79,7 @@ namespace Casino.TwentyOne
                         foreach(KeyValuePair<Player, int> entry in Bets)
                         {
                             Dealer.Balance += entry.Value;
+                            
                         }
                         return;
                     }
@@ -78,9 +92,9 @@ namespace Casino.TwentyOne
                     Console.WriteLine("Your cards are: ");
                     foreach (Card card in player.Hand)
                     {
-                        Console.WriteLine("{0}", card.ToString());
+                        Console.Write("{0} ", card.ToString());
                     }
-                    Console.WriteLine("\n\nHit of stay?");
+                    Console.WriteLine("\n\nHit or stay?");
                     string answer = Console.ReadLine().ToLower();
                     if (answer == "stay")
                     {
