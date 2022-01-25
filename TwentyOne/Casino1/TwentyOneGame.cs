@@ -39,7 +39,7 @@ namespace Casino.TwentyOne
                 //int bet = Convert.ToInt32(Console.ReadLine());
                 if(bet < 0)
                 {
-                    throw new FraudException();
+                    throw new FraudException("SECURITY! KICK THIS PERSON OUT!");
                 }
 
                 bool succefullyBet = player.Bet(bet);

@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.IO;
 using Casino;
 using Casino.TwentyOne;
@@ -16,6 +19,21 @@ namespace TwentyOne
 
             Console.WriteLine("Welcome to the {0}! Let's start by telling me your name:", casinoName);
             string playerName = Console.ReadLine();
+
+            if(playerName.ToLower() == "admin")
+            {
+                List<ExceptionEntity> Exceptions = ReadExceptions();
+                foreach (var exception in Exceptions)
+                {
+                    Console.Write(exception.id + " | ");
+                    Console.Write(exception.ExceptionType + " | ");
+                    Console.Write(exception.ExceptionMessage + " | ");
+                    Console.Write(exception.Timestamp + " | ");
+                    Console.WriteLine();
+                }
+                Console.Read();
+                return;
+            }
 
             bool validAnswer = false;
             int bank = 0;
@@ -49,15 +67,17 @@ namespace TwentyOne
                     {
                         game.Play();
                     }
-                    catch(FraudException) //more specific exceptions
+                    catch(FraudException ex) //more specific exceptions
                     {
-                        Console.WriteLine("SECURITY! Kick this person out!");
+                        Console.WriteLine(ex.Message);
+                        UpdateDbWithException(ex);
                         Console.ReadLine();
                         return; 
                     }
-                    catch (Exception) //generic exception catches the rest
+                    catch (Exception ex) //polymorph; generic exception catches the rest
                     {
                         Console.WriteLine("An error occured, please contact your System Administrator");
+                        UpdateDbWithException(ex);
                         Console.ReadLine();
                         return;
                     }
@@ -67,7 +87,77 @@ namespace TwentyOne
                 Console.WriteLine("Thank you for playing!");
             }
             Console.WriteLine("Feel free to browse the Casino. Bye for now!");
+            Console.Read();
         }
+        private static void UpdateDbWithException(Exception ex)
+        {
+            //need connection string to connect to a db
+            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TwentyOneGame;
+                                        Integrated Security=True;
+                                        Connect Timeout=30;
+                                        Encrypt=False;
+                                        TrustServerCertificate=False;
+                                        ApplicationIntent=ReadWrite;
+                                        MultiSubnetFailover=False";
 
+            //SQL Query String - use parameterized queries to protect
+            string queryString = @"INSERT INTO Exceptions (ExceptionType, ExceptionMessage, TimeStamp) VALUES
+                                (@ExceptionType, @ExceptionMessage, @TimeStamp)"; // values will be substituted, must match types (protection)
+
+            //make sure to close off these using statements for unmanaged code/getting external resources
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(queryString, connection);
+                command.Parameters.Add("@ExceptionType", SqlDbType.VarChar); //add data type parameters
+                command.Parameters.Add("@ExceptionMessage", SqlDbType.VarChar); //add data type parameters
+                command.Parameters.Add("@TimeStamp", SqlDbType.DateTime); //add data type parameters
+
+                //ensure data types of values
+                command.Parameters["@ExceptionType"].Value = ex.GetType().ToString();
+                command.Parameters["@ExceptionMessage"].Value = ex.Message;
+                command.Parameters["@TimeStamp"].Value = DateTime.Now;
+
+                connection.Open();
+                command.ExecuteNonQuery(); //INSERT statement is non query
+                connection.Close();
+            }
+        }
+        private static List<ExceptionEntity> ReadExceptions()
+        {
+            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TwentyOneGame;
+                                        Integrated Security=True;
+                                        Connect Timeout=30;
+                                        Encrypt=False;
+                                        TrustServerCertificate=False;
+                                        ApplicationIntent=ReadWrite;
+                                        MultiSubnetFailover=False";
+
+            string queryString = @"Select id, ExceptionType, ExceptionMessage, TimeStamp From Exceptions";
+
+            List<ExceptionEntity> Exceptions = new List<ExceptionEntity>();
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                //what happens when SQL connection is established
+                SqlCommand command = new SqlCommand(queryString, connection);
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    ExceptionEntity exception = new ExceptionEntity();
+                    exception.id = Convert.ToInt32(reader["id"]);
+                    exception.ExceptionType = reader["ExceptionType"].ToString();
+                    exception.ExceptionMessage = reader["ExceptionMessage"].ToString();
+                    exception.Timestamp = Convert.ToDateTime(reader["Timestamp"]);
+
+                    Exceptions.Add(exception);
+
+                }
+                connection.Close();
+            }
+            return Exceptions;
+        }
     }
 }
