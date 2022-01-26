@@ -8,6 +8,7 @@ namespace MyWebAppMVC.Controllers
 {
     public class HomeController : Controller
     {
+        //test
         public ActionResult Index()
         {
             string text = "Hello! The date and time is: " + DateTime.Now;
