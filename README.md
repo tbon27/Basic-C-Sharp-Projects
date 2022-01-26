@@ -5,5 +5,5 @@
 This repo is dedicated to the Basic C# Projects in The Tech Academy Bootcamp's coursework.
 
 ## Projects
-* [Casino Game: Twenty One](Basic-C-Sharp-Projects/tree/main/TwentyOne)
+* [Casino Game: Twenty One](https://github.com/tbon27/Basic-C-Sharp-Projects/tree/main/TwentyOne)
 - (...)
