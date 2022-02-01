@@ -5,6 +5,8 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using NewsletterAppMVC.Models;
+using NewsletterAppMVC.ViewModels;
 
 namespace NewsletterAppMVC.Controllers
 {
@@ -24,33 +26,39 @@ namespace NewsletterAppMVC.Controllers
             }
             else
             {
-                string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Newsletter;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                //=== ADO.NET
+                //string queryString = @"INSERT INTO SignUps (FirstName, LastName, EmailAddress) VALUES
+                //                        (@FirstName, @LastName, @EmailAddress)";
+                //using (SqlConnection connection = new SqlConnection(connectionString))
+                //{
+                //    SqlCommand command = new SqlCommand(queryString, connection);
+                //    command.Parameters.Add("@FirstName", SqlDbType.VarChar);
+                //    command.Parameters.Add("@LastName", SqlDbType.VarChar);
+                //    command.Parameters.Add("@EmailAddress", SqlDbType.VarChar);
 
-                string queryString = @"INSERT INTO SignUps (FirstName, LastName, EmailAddress) VALUES
-                                        (@FirstName, @LastName, @EmailAddress)";
-                using (SqlConnection connection = new SqlConnection(connectionString))
+                //    command.Parameters["@FirstName"].Value = firstName;
+                //    command.Parameters["@LastName"].Value = lastName;
+                //    command.Parameters["@EmailAddress"].Value = emailAddress;
+
+                //    connection.Open();
+                //    command.ExecuteNonQuery();
+                //    connection.Close();
+                //}
+            //=== Entity Framework
+                using(NewsletterEntities db = new NewsletterEntities())
                 {
-                    SqlCommand command = new SqlCommand(queryString, connection);
-                    command.Parameters.Add("@FirstName", SqlDbType.VarChar);
-                    command.Parameters.Add("@LastName", SqlDbType.VarChar);
-                    command.Parameters.Add("@EmailAddress", SqlDbType.VarChar);
+                    var signup = new SignUp();
+                    signup.FirstName = firstName;
+                    signup.LastName = lastName;
+                    signup.EmailAddress = emailAddress;
 
-                    command.Parameters["@FirstName"].Value = firstName;
-                    command.Parameters["@LastName"].Value = lastName;
-                    command.Parameters["@EmailAddress"].Value = emailAddress;
-
-                    connection.Open();
-                    command.ExecuteNonQuery();
-                    connection.Close();
+                    db.SignUps.Add(signup);
+                    db.SaveChanges();
                 }
-
-                    return View("Success");
+                return View("Success");
             }
         }
 
-        public ActionResult Admin()
-        {
-            return View();
-        }
+
     }
 }
