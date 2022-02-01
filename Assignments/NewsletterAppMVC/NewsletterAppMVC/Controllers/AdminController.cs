@@ -1,4 +1,5 @@
-﻿using NewsletterAppMVC.ViewModels;
+﻿using NewsletterAppMVC.Models;
+using NewsletterAppMVC.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,20 +41,38 @@ namespace NewsletterAppMVC.Controllers
             //==
             using (NewsletterEntities db = new NewsletterEntities()) //instantiate object to get access to database
             {
-                var signups = db.SignUps; // assign db records to variable signups
+                //Lambda syntax:
+                //var signups = db.SignUps.Where(x => x.Removed == null).ToList(); // get and assign db records to variable signups
+
+                //LINQ, alternatively:
+                var signups = (from c in db.SignUps
+                               where c.Removed == null 
+                               select c).ToList();
                 var signupVms = new List<SignupVm>(); // new list of view models
+
                 foreach (var signup in signups) //map view models from model to view model
                 {
                     var signupVm = new SignupVm();
+                    signupVm.Id = signup.Id;
                     signupVm.FirstName = signup.FirstName;
                     signupVm.LastName = signup.LastName;
                     signupVm.EmailAddress = signup.EmailAddress;
                     signupVms.Add(signupVm);
                 }
 
-                return View(signupVms); //pass this list to view (just cause we're passing Id doesn't mean we need to display it)
-
+                return View(signupVms); //pass this list to view model to view 
             }
+        }
+
+        public ActionResult Unsubscribe(int Id) //hit the button, gets the id...
+        {
+            using (NewsletterEntities db = new NewsletterEntities())
+            {
+                var signup = db.SignUps.Find(Id); //passing in primary key, find the record
+                signup.Removed = DateTime.Now; //changes removed column to datetime
+                db.SaveChanges(); 
+            }
+            return RedirectToAction("Index");
         }
     }
 }
