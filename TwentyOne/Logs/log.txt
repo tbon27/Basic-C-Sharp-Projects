@@ -357,3 +357,84 @@ Queen of Diamonds
 Ace of Diamonds
 
 d236000f-6fba-49bf-85cc-75ffbcfbdebb
+f4c3609e-e18d-48b2-a43d-f799fd758555
+1/28/2022 4:23:57 PM
+Queen of Spades
+
+1/28/2022 4:23:57 PM
+King of Spades
+
+1/28/2022 4:23:57 PM
+Two of Spades
+
+1/28/2022 4:23:57 PM
+Five of Diamonds
+
+1/28/2022 4:24:19 PM
+Eight of Clubs
+
+1/28/2022 4:24:29 PM
+Queen of Diamonds
+
+1/28/2022 4:24:50 PM
+Queen of Clubs
+
+1/28/2022 4:24:50 PM
+King of Clubs
+
+1/28/2022 4:24:50 PM
+Nine of Spades
+
+1/28/2022 4:24:50 PM
+Jack of Clubs
+
+1/28/2022 4:25:11 PM
+Queen of Hearts
+
+1/28/2022 4:25:29 PM
+Two of Clubs
+
+1/28/2022 4:25:29 PM
+Jack of Spades
+
+1/28/2022 4:25:29 PM
+Queen of Diamonds
+
+1/28/2022 4:25:29 PM
+Seven of Diamonds
+
+1/28/2022 4:25:44 PM
+Six of Spades
+
+1/28/2022 4:26:49 PM
+Seven of Diamonds
+
+1/28/2022 4:26:49 PM
+Three of Diamonds
+
+1/28/2022 4:26:49 PM
+Jack of Clubs
+
+1/28/2022 4:26:49 PM
+Three of Hearts
+
+08b00e2a-de79-45dd-bac5-9ec32e49b968
+f36db1de-fa0a-43fb-ba1e-15e197295d71
+1/28/2022 4:28:16 PM
+Five of Spades
+
+1/28/2022 4:28:16 PM
+Three of Diamonds
+
+1/28/2022 4:28:16 PM
+Four of Diamonds
+
+1/28/2022 4:28:16 PM
+Eight of Diamonds
+
+1/28/2022 4:28:32 PM
+Jack of Hearts
+
+1/28/2022 4:28:34 PM
+Seven of Diamonds
+
