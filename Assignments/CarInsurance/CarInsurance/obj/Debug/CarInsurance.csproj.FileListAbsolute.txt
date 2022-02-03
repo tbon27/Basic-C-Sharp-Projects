@@ -80,4 +80,3 @@ C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Assignments\CarI
 C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Assignments\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.CopyComplete
 C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Assignments\CarInsurance\CarInsurance\obj\Debug\CarInsurance.dll
 C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Assignments\CarInsurance\CarInsurance\obj\Debug\CarInsurance.pdb
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Assignments\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.AssemblyReference.cache
