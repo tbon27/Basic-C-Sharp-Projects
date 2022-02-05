@@ -2,7 +2,7 @@
 
 ![This is a C# image](https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png)
 
-This repo is dedicated to the Basic C# Projects I have completed through The Tech Academy's C#/.NET Bootcamp coursework.
+This repo is dedicated to the C# Projects I have completed through The Tech Academy's C#/.NET Bootcamp coursework.
 
 ## Projects
 * [Casino Game: Twenty One](https://github.com/tbon27/Basic-C-Sharp-Projects/tree/main/TwentyOne)
