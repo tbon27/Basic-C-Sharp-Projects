@@ -5,8 +5,8 @@
 This repo is dedicated to my C# Projects.
 
 ## Projects
-* [Casino Game: Twenty One](https://github.com/tbon27/Basic-C-Sharp-Projects/tree/main/TwentyOne)
-* [Car Insurance Quote App](https://github.com/tbon27/Basic-C-Sharp-Projects/tree/main/Assignments/CarInsurance)
+* [Casino Game: Twenty One](https://github.com/tbon27/C-Sharp-Projects/tree/main/TwentyOne)
+* [Car Insurance Quote App](https://github.com/tbon27/C-Sharp-Projects/tree/main/CarInsurance)
 
 ### Casino Game: Twenty One
 This project is a console application that allows a user to play the popular casino card game Twenty One. Users can enter unique information such as name and the amount one desires to bet per hand. The game functions with basic traditional rules with hit and stay options, while the dealer stays on hands 17+. The structure of this application is also prepared for an update to multi-game casino application if desired. This project was completed as coursework for The Tech Academy's C#/.NET Software Developer Bootcamp.
