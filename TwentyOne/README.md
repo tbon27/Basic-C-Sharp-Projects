@@ -1,5 +1,5 @@
 # Casino Game: Twenty One
-<img src="https://github.com/tbon27/C-Sharp-Projects/blob/main/TwentyOne/readmeSS1.png" width="350" height="450"> 
+<img src="https://github.com/tbon27/C-Sharp-Projects/blob/main/TwentyOne/readmeSS1.png" width="390" height="450"> 
 
 ### Welcome to my Casino Game: Twenty One repository!
 
