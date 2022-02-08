@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="InsuranceEntities-Web.config Connection String" description="InsuranceEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.InsuranceEntities.csdl|res://*/Models.InsuranceEntities.ssdl|res://*/Models.InsuranceEntities.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\Insurance.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\tbong\\OneDrive\\Documents\\GitHub\\Basic-C-Sharp-Projects\\Assignments\\CarInsurance\\CarInsurance\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='InsuranceEntities']/@connectionString" />
-  </parameter>
-</parameters>

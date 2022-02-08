@@ -1,7 +1,0 @@
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Abstract_Class_Assignment\Abstract_Class_Assignment\bin\Debug\Abstract_Class_Assignment.exe.config
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Abstract_Class_Assignment\Abstract_Class_Assignment\bin\Debug\Abstract_Class_Assignment.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Abstract_Class_Assignment\Abstract_Class_Assignment\bin\Debug\Abstract_Class_Assignment.pdb
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Abstract_Class_Assignment\Abstract_Class_Assignment\obj\Debug\Abstract_Class_Assignment.csproj.CoreCompileInputs.cache
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Abstract_Class_Assignment\Abstract_Class_Assignment\obj\Debug\Abstract_Class_Assignment.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Abstract_Class_Assignment\Abstract_Class_Assignment\obj\Debug\Abstract_Class_Assignment.pdb
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Abstract_Class_Assignment\Abstract_Class_Assignment\obj\Debug\Abstract_Class_Assignment.csproj.AssemblyReference.cache

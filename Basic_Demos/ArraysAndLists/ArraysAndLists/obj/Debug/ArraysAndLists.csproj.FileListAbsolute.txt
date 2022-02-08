@@ -1,6 +1,0 @@
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Basic_Demos\ArraysAndLists\ArraysAndLists\bin\Debug\ArraysAndLists.exe.config
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Basic_Demos\ArraysAndLists\ArraysAndLists\bin\Debug\ArraysAndLists.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Basic_Demos\ArraysAndLists\ArraysAndLists\bin\Debug\ArraysAndLists.pdb
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Basic_Demos\ArraysAndLists\ArraysAndLists\obj\Debug\ArraysAndLists.csproj.CoreCompileInputs.cache
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Basic_Demos\ArraysAndLists\ArraysAndLists\obj\Debug\ArraysAndLists.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Basic_Demos\ArraysAndLists\ArraysAndLists\obj\Debug\ArraysAndLists.pdb

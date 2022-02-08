@@ -1,7 +1,0 @@
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method_Assignment\Main_Method_Assignment\bin\Debug\Main_Method_Assignment.exe.config
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method_Assignment\Main_Method_Assignment\bin\Debug\Main_Method_Assignment.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method_Assignment\Main_Method_Assignment\bin\Debug\Main_Method_Assignment.pdb
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method_Assignment\Main_Method_Assignment\obj\Debug\Main_Method_Assignment.csproj.AssemblyReference.cache
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method_Assignment\Main_Method_Assignment\obj\Debug\Main_Method_Assignment.csproj.CoreCompileInputs.cache
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method_Assignment\Main_Method_Assignment\obj\Debug\Main_Method_Assignment.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method_Assignment\Main_Method_Assignment\obj\Debug\Main_Method_Assignment.pdb

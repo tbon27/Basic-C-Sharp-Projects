@@ -1,6 +1,0 @@
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\BooleanLogic\BooleanLogic\bin\Debug\BooleanLogic.exe.config
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\BooleanLogic\BooleanLogic\bin\Debug\BooleanLogic.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\BooleanLogic\BooleanLogic\bin\Debug\BooleanLogic.pdb
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\BooleanLogic\BooleanLogic\obj\Debug\BooleanLogic.csproj.CoreCompileInputs.cache
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\BooleanLogic\BooleanLogic\obj\Debug\BooleanLogic.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\BooleanLogic\BooleanLogic\obj\Debug\BooleanLogic.pdb

@@ -1,7 +1,0 @@
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Basic_Demos\Exception_Handling\Exception_Handling\bin\Debug\Exception_Handling.exe.config
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Basic_Demos\Exception_Handling\Exception_Handling\bin\Debug\Exception_Handling.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Basic_Demos\Exception_Handling\Exception_Handling\bin\Debug\Exception_Handling.pdb
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Basic_Demos\Exception_Handling\Exception_Handling\obj\Debug\Exception_Handling.csproj.AssemblyReference.cache
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Basic_Demos\Exception_Handling\Exception_Handling\obj\Debug\Exception_Handling.csproj.CoreCompileInputs.cache
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Basic_Demos\Exception_Handling\Exception_Handling\obj\Debug\Exception_Handling.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Basic_Demos\Exception_Handling\Exception_Handling\obj\Debug\Exception_Handling.pdb

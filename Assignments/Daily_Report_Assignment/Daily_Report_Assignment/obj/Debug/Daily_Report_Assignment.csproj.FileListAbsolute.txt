@@ -1,7 +1,0 @@
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Daily_Report_Assignment\Daily_Report_Assignment\bin\Debug\Daily_Report_Assignment.exe.config
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Daily_Report_Assignment\Daily_Report_Assignment\bin\Debug\Daily_Report_Assignment.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Daily_Report_Assignment\Daily_Report_Assignment\bin\Debug\Daily_Report_Assignment.pdb
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Daily_Report_Assignment\Daily_Report_Assignment\obj\Debug\Daily_Report_Assignment.csproj.AssemblyReference.cache
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Daily_Report_Assignment\Daily_Report_Assignment\obj\Debug\Daily_Report_Assignment.csproj.CoreCompileInputs.cache
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Daily_Report_Assignment\Daily_Report_Assignment\obj\Debug\Daily_Report_Assignment.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\Daily_Report_Assignment\Daily_Report_Assignment\obj\Debug\Daily_Report_Assignment.pdb

@@ -1,7 +1,0 @@
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApp_Assignment\ConsoleApp_Assignment\bin\Debug\ConsoleApp_Assignment.exe.config
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApp_Assignment\ConsoleApp_Assignment\bin\Debug\ConsoleApp_Assignment.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApp_Assignment\ConsoleApp_Assignment\bin\Debug\ConsoleApp_Assignment.pdb
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApp_Assignment\ConsoleApp_Assignment\obj\Debug\ConsoleApp_Assignment.csproj.CoreCompileInputs.cache
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApp_Assignment\ConsoleApp_Assignment\obj\Debug\ConsoleApp_Assignment.exe
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApp_Assignment\ConsoleApp_Assignment\obj\Debug\ConsoleApp_Assignment.pdb
-C:\Users\tbong\OneDrive\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApp_Assignment\ConsoleApp_Assignment\obj\Debug\ConsoleApp_Assignment.csproj.AssemblyReference.cache
